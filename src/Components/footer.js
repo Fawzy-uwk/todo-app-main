@@ -76,7 +76,7 @@ export function Footer2({ view, setView }) {
       </li>
 
       <li
-        onClick={() => setView("marked")}
+        onClick={() => setView("marked")} 
         className={
           view === "unmarked"
             ? "active hover:text-slate-300 cursor-pointer "
